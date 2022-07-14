@@ -1,0 +1,3 @@
+#! node
+
+require('./index.js')

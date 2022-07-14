@@ -1,0 +1,23 @@
+{
+  "name": "kfmerss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "bin/kfmerss.js",
+  "scripts": {
+    "test": "npm run build && npm run start",
+    "start": "node bin/index.js",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "knict-cli": "^0.0.11",
+    "knict-fetch": "^0.2.0",
+    "typescript": "^4.7.4",
+    "xml2json": "^0.12.0"
+  },
+  "devDependencies": {
+    "@types/xml2json": "^0.11.4"
+  }
+}
